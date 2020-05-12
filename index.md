@@ -4,7 +4,7 @@ Creometry is a project aiming to enable access-to-computing where "cloud service
 The project consists of an infrastructure-network formed by a community of volunteer hosts, who are driven by economic incentives issued by applications owners (devs and/or orgs) to pay for compute and storage. Hence the term "cloud miner", in reference to volunteer hosts.
 
 ### Why incentive-driven?
-Despite being accessible online and on-demand, purchasing computing utility requires access to minimal banking infrastructure open to anchor currency reserves, which is a limited and hard to get resource in most developing countries.
+Despite being accessible online and on-demand, purchasing computing utility requires access to a global banking services, as well as favorable policies around currency reserves, which is often limited and under strict control in most developing countries.
 Alternatively on-premise hosting is what most companies opt for. Yet, this model is not an option for web-based startups, since it requires a relatively high capital expenditure, a cheap source of energy nearby and a centralized large network bandwith.
 
 ### Solution
