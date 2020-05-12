@@ -1,6 +1,6 @@
 ## Welcome 
 
-Creometry is a project aiming to enable access-to-computing where "cloud services" are a far reach due to economic constraints currency politics and/or compliance policies, notably in developing countries.
+Creometry is a project aiming to enable access-to-computing where "cloud services" are a far reach due to economic constraints, currency politics and/or compliance policies, notably in developing countries.
 The project consists of an infrastructure-network formed by a community of volunteer hosts, who are driven by economic incentives issued by applications owners (devs and/or orgs) to pay for compute and storage. Hence the term "cloud miner", in reference to volunteer hosts.
 
 ### Why incentive-driven?
