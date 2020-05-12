@@ -21,7 +21,8 @@ Intro
   3. Select which incentives you would like to earn: incentives can be associated with one particular app component or with all apps belonging to one particular organization.
   4. Earn digital value redeemable in-app/in-store within the issuing organization.
   
- ## Trade: for liquidity 
+
+## Trade (for liquidity)
 - Trade a digital value for another according to a market price determined by offer and demand. 
 - 'Gutta' is the unit of market prices. It is considered creometry's native virtual currency, eliminating the need for a fiat currency.
 - Trade volume limits are determined by the application owners and apply to each and every incentive issued on the network. 
