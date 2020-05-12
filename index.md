@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## Welcome to Creometry
 
-You can use the [editor on GitHub](https://github.com/Creometry/creometry.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Intro
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Why incentive-driven?
 
-### Markdown
+- Building a Data-center requires a high Capital expenditure, a cheap source of energy and a centralized large network bandwith.
+- Paying for online and on-demand "cloud services" requires a minimal banking infrastructure and access to foreign currency reserves.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+# Create (for devs)
+  ## Build apps
+   Create a web-based business delivered throu a web-application that is built from small components (functions in     containers).
+  ## Value incentives: (make it rain)
+   Identify an attractive economic value in the business provided through the web-app, then use that value to pay a community of volunteers for hosting the application components.
 
-# Header 1
-## Header 2
-### Header 3
+# Compute (for cloud miners)
+  1. Bring Your Own Machine: Bare-Metal and Shared machine (Virtualized)
+  2. Download the OS/Stack: support for ARM64 and AMD64
+  3. Select which incentives you would like to earn: incentives can be associated with one particular app component or with all apps belonging to one particular organization.
+  4. Earn digital value redeemable in-app/in-store within the issuing organization.
+  
+ # Trade: for liquidity 
+- Trade a digital value for another according to a market price determined by offer and demand. 
+- 'Gutta' the unit of market prices, replacing fiat currency.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+- Trade volume limits are determined by the application owners and apply to each and every asset issued on the network. Limits are meant to minimize price fluctuation and preserve interest in the intrinsic value (i.e. redemption) rather than allowing most network nodes to dedicate their capacity for a particular asset/org because of its attractive price or its shiny brand name.  
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Creometry/creometry.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
