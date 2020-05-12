@@ -1,12 +1,24 @@
-## Welcome to Creometry
+## Welcome 
 
-Intro
+Creometry is a project aiming to enable access-to-computing where "cloud services" are a far reach due to economic constraints and financial policies, notably in developing countries. 
+The project consists of an infrastructure-network formed by a community of volunteer hosts, who are driven by economic incentives issued by applications owners (devs and/or orgs) to pay for compute and storage. Hence the term "Cloud miner" to refers to volunteer hosts.
 
 ### Why incentive-driven?
+Despite being accessible online and on-demand, purchasing computing utility requires access minimal banking infrastructure open to anchor currency reserves, which is a limited and hard to get resource in most developing countries.
+Alternatively on-premise hosting is what most companies opt for. Yet, this model is not an option for web-business startup since it requires a relatively high capital expenditure, a cheap source of energy nearby and a centralized large network bandwith.
 
-- Building a Data-center requires a high capital expenditure, a cheap source of energy nearby and a centralized large network bandwith.
-- Paying for online and on-demand "cloud services" requires a minimal banking infrastructure and access to foreign currency reserves.
+### Solution
+An incentive system may enable a "Bring Your Own Machine" model to run lightweight workloads (function) in exchange of the intrinsic economic value produced through the web-based business.   
 
+### Compute model
+
+Autoscaling functions in containers (Aka serverless containers) is a lightweight compute model that fits a community infrastructure, in-which, host resources might be limited and need to be used efficiently.
+
+### Architecture
+
+A 3-tiers architectures Proxy - Master - Worker is a starting point as we research newer technique to create a further decentralized model by: 
+ - Virtualizing core network functtions and running them on worker nodes, eliminating the need for a master and potentially client facing gateways.
+ - Making use of Enclaves and/or Fully homomorphic encryption to eliminate the need for centralized attestation to ensure trust.
 
 ## Create (for devs)
 - Build apps
