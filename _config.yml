@@ -1,5 +1,5 @@
-theme: jekyll-theme-minimal
+theme: custom
 title: CREOMETRY
-tagline: 
-description: 
-avatar: "/assets/logo/logo.png"
+tagline: The cloud made easy!
+description: A serverless platform
+avatar: ""
