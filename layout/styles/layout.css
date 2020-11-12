@@ -13,7 +13,7 @@ File: Layout CSS
 
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
-.row1{border-bottom:1px solid;}
+.row1{}
 .row2, .row2 a{}
 .row3, .row3 a{}
 .row4, .row4 a{}
@@ -28,6 +28,8 @@ File: Layout CSS
 #logo-image{width:3em;height:5em;margin-bottom: 0.75em;}
 #header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase;}
 #header #logo h1 a {
+	font-family: Garamond;
+	font-weight: 900;
 	/* padding-top:5em; */
 	/* vertical-align:middle; */
 }
@@ -203,6 +205,11 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav li li .drop::after{top:15px; left:5px;}
 #mainav ul ul{visibility:hidden; opacity:0;}
 #mainav ul li:hover > ul{visibility:visible; opacity:1;}
+#mainav ul li a{
+	font-size: 1.2em;
+	font-weight: 600;
+	/* font-family: Garamond; */
+	}
 
 #mainav form{display:none; margin:0; padding:0;}
 #mainav form select, #mainav form select option{display:block; cursor:pointer; outline:none;}
@@ -335,6 +342,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 
 #footer nav a{color:inherit;}
 #footer nav li:first-child a, #footer nav a:hover{color:#FE0000;}
+#footer div ul {text-align: center;}
 
 #footer .faico a{color:inherit; background-color:#2B2F32;}
 #footer .faico a:hover{color:#FFFFFF;}
@@ -404,6 +412,7 @@ table a, #comments a{background-color:inherit;}
 	#mainav{}
 	#mainav ul{display:none;}
 	#mainav form{display:block;}
+	
 
 	#breadcrumb{}
 
