@@ -65,6 +65,7 @@ File: Layout CSS
 .services li article *{margin:0; padding:0;}
 .services li article i{margin-bottom:20px;}
 .services li article .heading{margin-bottom:15px; font-size:1.2rem;}
+svg:hover {fill: red;}
 
 .pricelist{display:block; max-width:480px; text-align:center; border:1px solid;}
 .pricelist > li *{margin:0;}
