@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="">
+<title>Creometry</title>
+<link rel="icon" type="image/png" href="images/logo_file.png"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Garamond">
+</head>
+<body id="top">
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('images/backgrounds/01.jpg');"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div id="logo" class="fl_left">
+        <h1><img id="logo-image" src="images/logo_file.png">
+          <a href="index.html">Creometry</a>
+          </h1>
+        
+      </div>
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a class="drop" href="pages/services/services.html">Products and Services</a>
+            <ul>
+              <li><a href="pages/services/services.html#caas">Managed CaaS</a></li>
+              <li><a href="pages/services/services.html#lab">Startup Lab</a></li>
+              <li><a class="drop" href="pages/services.html#academy">Academy</a>
+                <ul>
+                  <li><a href="pages/academy.html#linux">Introduction to Linux</a></li>
+                  <li><a href="pages/academy.html#golang">Golang from scratch</a></li>
+                  <li><a href="pages/academy.html#ops">Kubernetes & DevOps</a></li>
+                </ul>
+              </li>
+              <li><a href="spages/services/services.html#migrate">Migrate VMs to containers</a></li>
+             </ul>
+          </li> 
+          <li><a class="drop" href="pages/docs/index.html">guides</a>
+                <ul>
+                  <li><a href="pages/docs/guides/guides.html">Quick start</a></li>
+                  <li><a href="pages/docs/docs/docs.html">Docs</a></li>
+                </ul>
+              </li>
+          <li><a href="pages/about.html">about</a></li>
+          <li><a href="https://cloud.creometry.com">login</a></li>
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>
+  <div id="pageintro" class="hoc clear">
+    <article> 
+      <!-- ################################################################################################ -->
+      <h3 class="heading">CREOMETRY</h3>
+      <p class="font-x1 uppercase bold">Your journey to the cloud just got easier!</p>
+      <footer><a class="btn" href="#">Get started</a></footer>
+      <!-- ################################################################################################ -->
+    </article>
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<div class="wrapper bgded overlay" style="background-image:url('images/backgrounds/0.jpg');">
+  <div class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">Overview</h6>
+    </div>
+    <div class="group">
+      <div class="two_third first">
+        <p><strong>What is Creometry?</strong></p>
+        <p>Creometry is a managed application platform leverageing a modern architecture (known as “serverless”) and open-source technologies (i.e. kubernetes, Linux containers) to deliver a developer friendly experience and reduce the cost of hosting software. The platform abstracts infrastructure completely, allowing developers to focus on business logic and delivering applications faster.
+          In addition to the its container-as-a-service platform, Creometry creates an ecosystem consisting of a training academy for individuals looking to add new technological skills, and a startup lab to accompany the most promising digital business ideas.</p>
+        <p class="btmspace-30">Creometry offers support to organizations planning to migrate to a container-based deployment for increased agility, optimal resource utilization and higher quality of service.</p>
+        <footer><a class="btn" href="#">Learn More &raquo;</a></footer>
+      </div>
+      <div class="one_third">
+        <p><strong>See it in action</strong></p>
+        <figure class="videocontainer"> 
+          <!-- Important: Any type of video called via "iframe" must be in a container using class="videocontainer" -->
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/QGWq7fcfimg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <figcaption>Auto-scaling container demo</figcaption>
+        </figure>
+      </div>
+    </div>
+    <!-- ################################################################################################ -->
+  </div>
+</div>  
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">Platform Features</h6>
+    </div>
+    <ul class="nospace group services">
+      <li class="one_third first">
+        <article><a href="#">
+          <!-- <i class="fa fa-2x fa-industry"></i> -->
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="28" width="28" x="0px" y="0px"	 viewBox="0 0 480.005 480.005" style="enable-background:new 0 0 480.005 480.005;" xml:space="preserve"><g>	<g>		<g>			<path d="M240.003,48c4.418,0,8-3.582,8-8V8c0-4.418-3.582-8-8-8s-8,3.582-8,8v32C232.003,44.418,235.584,48,240.003,48z"/>			<path d="M141.075,36.656l16,27.704c2.184,3.841,7.068,5.184,10.909,3s5.184-7.068,3-10.909c-0.017-0.031-0.035-0.061-0.053-0.092				l-16-27.704c-2.184-3.841-7.068-5.184-10.909-3c-3.841,2.184-5.184,7.068-3,10.909C141.039,36.595,141.057,36.626,141.075,36.656				z"/>			<path d="M76.567,106.875c0.03,0.018,0.061,0.035,0.092,0.053l27.704,16c3.812,2.234,8.713,0.956,10.947-2.856				c2.234-3.812,0.956-8.713-2.856-10.947c-0.03-0.018-0.061-0.035-0.092-0.053l-27.704-16c-3.812-2.234-8.713-0.956-10.947,2.856				C71.477,99.739,72.755,104.641,76.567,106.875z"/>			<path d="M96.003,192c0-4.418-3.582-8-8-8h-32c-4.418,0-8,3.582-8,8s3.582,8,8,8h32C92.421,200,96.003,196.418,96.003,192z"/>			<path d="M104.456,261.018c-0.031,0.018-0.062,0.036-0.093,0.054l-27.704,16c-3.841,2.183-5.185,7.067-3.002,10.908				c2.183,3.841,7.067,5.185,10.908,3.002c0.031-0.018,0.062-0.036,0.093-0.054l27.704-16c3.841-2.183,5.185-7.067,3.002-10.908				C113.181,260.179,108.297,258.835,104.456,261.018z"/>			<path d="M403.44,277.126c-0.031-0.018-0.062-0.036-0.093-0.054l-27.704-16c-3.811-2.235-8.713-0.957-10.948,2.854				c-2.235,3.811-0.957,8.713,2.854,10.948c0.031,0.018,0.062,0.036,0.093,0.054l27.704,16c3.811,2.235,8.713,0.957,10.948-2.854				C408.529,284.262,407.251,279.361,403.44,277.126z"/>			<path d="M424.003,184h-32c-4.418,0-8,3.582-8,8s3.582,8,8,8h32c4.418,0,8-3.582,8-8S428.421,184,424.003,184z"/>			<path d="M371.651,124c1.404,0,2.784-0.37,4-1.072l27.704-16c3.841-2.184,5.184-7.068,3-10.909s-7.068-5.184-10.909-3				c-0.031,0.017-0.061,0.035-0.092,0.053l-27.704,16c-3.826,2.209-5.137,7.102-2.928,10.928				C366.152,122.475,368.793,124,371.651,124z"/>			<path d="M311.993,67.291c0.003,0.002,0.006,0.004,0.009,0.005c3.827,2.207,8.72,0.894,10.927-2.934				c0-0.001,0.001-0.002,0.001-0.002l16-27.704c2.235-3.811,0.957-8.713-2.854-10.948c-3.811-2.235-8.713-0.957-10.948,2.854				c-0.018,0.031-0.036,0.062-0.054,0.093l-16,27.704C306.862,60.184,308.169,65.078,311.993,67.291z"/>			<path d="M256.003,320c4.418,0,8-3.582,8-8v-88h16c17.673,0,32-14.327,32-32s-14.327-32-32-32c-17.673,0-32,14.327-32,32v16h-16				v-16c0-17.673-14.327-32-32-32s-32,14.327-32,32s14.327,32,32,32h16v88c0,4.418,3.582,8,8,8s8-3.582,8-8v-88h16v88				C248.003,316.418,251.584,320,256.003,320z M264.003,192c0-8.837,7.163-16,16-16s16,7.163,16,16s-7.163,16-16,16h-16V192z				 M216.003,208h-16c-8.837,0-16-7.163-16-16s7.163-16,16-16s16,7.163,16,16V208z"/>			<path d="M246.219,64.152c-70.611-3.392-130.603,51.099-133.995,121.71c-1.943,40.432,15.354,79.4,46.643,105.082				c5.639,4.417,8.994,11.135,9.136,18.296V328c0.042,10.134,6.445,19.15,16,22.528V360c0.021,5.923,2.245,11.627,6.24,16				c-8.32,9.044-8.32,22.956,0,32c-8.894,9.75-8.2,24.864,1.55,33.758c4.429,4.04,10.215,6.268,16.21,6.242				c4.306,0.113,7.889-3.287,8.001-7.593c0.044-1.68-0.456-3.33-1.425-4.703c-0.253-0.489-0.553-0.953-0.896-1.384				c-0.658-0.602-1.409-1.094-2.224-1.456c-0.232-0.12-0.464-0.216-0.704-0.312c-0.81-0.295-1.659-0.465-2.52-0.504				c-0.08,0-0.152-0.048-0.232-0.048c-4.418,0-8-3.582-8-8s3.582-8,8-8h32c4.418,0,8-3.582,8-8s-3.582-8-8-8h-32				c-4.418,0-8-3.582-8-8s3.582-8,8-8h32c4.418,0,8-3.582,8-8s-3.582-8-8-8h-32c-4.418,0-8-3.582-8-8v-8h40c4.418,0,8-3.582,8-8				s-3.582-8-8-8h-48c-4.418,0-8-3.582-8-8v-18.76c-0.131-11.962-5.64-23.23-15-30.68c-47.788-39.274-54.689-109.852-15.415-157.64				c22.466-27.336,56.528-42.448,91.871-40.76c59.107,3.516,105.536,51.957,106.544,111.16c0.287,34.052-15.024,66.363-41.56,87.704				c-9.29,7.652-14.602,19.109-14.44,31.144V328c0,4.418-3.582,8-8,8h-24c-4.418,0-8,3.582-8,8s3.582,8,8,8h16v8				c0,4.418-3.582,8-8,8h-8c-4.418,0-8,3.582-8,8s3.582,8,8,8h8c4.418,0,8,3.582,8,8s-3.582,8-8,8h-8c-4.418,0-8,3.582-8,8				s3.582,8,8,8h8c4.418,0,8,3.582,8,8s-3.582,8-8,8h-40c-4.418,0-8,3.582-8,8s3.582,8,8,8h30.632				c-4.417,12.497-18.129,19.047-30.626,14.63c-3.826-1.352-7.246-3.653-9.942-6.686c-2.938-3.3-7.996-3.594-11.296-0.656				c-3.3,2.938-3.594,7.996-0.656,11.296c14.631,16.487,39.857,17.992,56.344,3.362c6.81-6.043,11.349-14.232,12.864-23.21				c12.529-3.916,19.511-17.247,15.596-29.776c-1.04-3.329-2.801-6.388-5.156-8.96c8.32-9.044,8.32-22.956,0-32				c3.995-4.373,6.219-10.077,6.24-16v-9.472c9.555-3.378,15.958-12.394,16-22.528v-17.832c-0.107-7.187,3.007-14.046,8.488-18.696				c30.344-24.395,47.85-61.339,47.512-100.272C366.847,123.532,313.777,68.169,246.219,64.152z"/>		</g>	</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>        </a>
+          <h6 class="heading font-x1">Create more! Do less!</h6>
+          <p>Save the time spent on provisioning and managing infrastructure. Focus on writing code and shipping new features instead</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fa fa-2x fa-clock-o"></i></a>
+          <h6 class="heading font-x1">High availability</h6>
+          <p>Applications scale automatically upon traffic increase/decrease so you can sleep at night</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fa fa-2x fa-money"></i></a>
+          <h6 class="heading font-x1">Reduced cost</h6>
+          <p>Save up to 70% on the cost of cloud services with auto-scaling feature. When there is no incoming user requests, applications scale down to ZERO, so you never pay for idle!</p>
+        </article>
+      </li>
+      <li class="one_third first">
+        <article><a href="#"><i class="fa fa-2x fa-shield"></i></a>
+          <h6 class="heading font-x1">Security out-of-the-box</h6>
+          <p>Get TLS encrypted network traffic and secure data storage, without additional efforts</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#">
+          <svg enable-background="new 0 0 24 24" height="28" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><path d="m6.5 20c-.124 0-.245-.047-.338-.131-.103-.095-.162-.228-.162-.369v-14c0-.14.059-.274.162-.369.104-.095.24-.143.382-.129l17 1.5c.258.023.456.239.456.498v11c0 .259-.198.476-.456.498l-17 1.5c-.015.001-.029.002-.044.002zm.5-13.954v12.908l16-1.412v-10.084zm16.5 11.954h.01z"/><path d="m6.5 20c-.04 0-.08-.005-.121-.015l-6-1.5c-.223-.055-.379-.256-.379-.485v-11c0-.229.156-.429.379-.485l6-1.5c.264-.069.539.096.606.364.067.267-.095.539-.364.606l-5.621 1.406v10.219l5.621 1.405c.269.067.431.339.364.606-.056.228-.26.379-.485.379z"/><path d="m3.5 19.25c-.276 0-.5-.224-.5-.5v-12.5c0-.276.224-.5.5-.5s.5.224.5.5v12.5c0 .276-.224.5-.5.5z"/><path d="m9.5 18c-.276 0-.5-.224-.5-.5v-10c0-.276.224-.5.5-.5s.5.224.5.5v10c0 .276-.224.5-.5.5z"/><path d="m13.5 17.5c-.276 0-.5-.224-.5-.5v-9c0-.276.224-.5.5-.5s.5.224.5.5v9c0 .276-.224.5-.5.5z"/><path d="m17.5 17c-.276 0-.5-.224-.5-.5v-8c0-.276.224-.5.5-.5s.5.224.5.5v8c0 .276-.224.5-.5.5z"/><path d="m21.5 16.5c-.276 0-.5-.224-.5-.5v-7c0-.276.224-.5.5-.5s.5.224.5.5v7c0 .276-.224.5-.5.5z"/></svg>
+          </a>
+          <h6 class="heading font-x1">Modern & Agile</h6>
+          <p>Extend existing applications or build new functions and/or micro-services in any popular programming languages</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#">
+          <!-- <i class="fa fa-2x fa-docker"></i></a> -->
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="28" width="28"	 viewBox="0 0 511.997 511.997" style="enable-background:new  0 0 24 24;" xml:space="preserve"><g>	<g>		<path d="M506.76,242.828l-118.4-125.44c-7.277-7.718-19.424-8.07-27.142-0.787c-7.706,7.277-8.064,19.43-0.781,27.142			l105.965,112.256L360.437,368.268c-7.283,7.712-6.925,19.859,0.781,27.142c3.712,3.501,8.454,5.235,13.178,5.235			c5.101,0,10.195-2.022,13.965-6.01l118.4-125.446C513.742,261.785,513.742,250.226,506.76,242.828z"/>	</g></g><g>	<g>		<path d="M151.566,368.262L45.608,255.999l105.958-112.262c7.277-7.712,6.925-19.866-0.787-27.142			c-7.706-7.277-19.866-6.925-27.142,0.787l-118.4,125.44c-6.982,7.398-6.982,18.963,0,26.362L123.643,394.63			c3.776,4,8.864,6.016,13.965,6.016c4.723,0,9.466-1.741,13.171-5.242C158.498,388.127,158.843,375.974,151.566,368.262z"/>	</g></g><g>	<g>		<path d="M287.061,52.697c-10.477-1.587-20.282,5.606-21.882,16.083l-56.32,368.64c-1.6,10.483,5.6,20.282,16.083,21.882			c0.986,0.147,1.958,0.218,2.925,0.218c9.325,0,17.504-6.803,18.957-16.301l56.32-368.64			C304.744,64.095,297.544,54.297,287.061,52.697z"/>	</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+          </a>
+          <h6 class="heading font-x1">100% Cloud Native</h6>
+          <p>Built on top of Kubernetes, Docker, and other open-source technologies to deliver a state of the art cloud native stack </p>
+        </article>
+      </li>
+    </ul>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/04.png');">
+  <div class="hoc container testimonials clear"> 
+    <!-- ################################################################################################ -->
+    <article><img src="images/demo/100x100.png" alt="">
+      <blockquote>creometry has allowed us to cut on costs of maintaining a cloud infrastracture and focus on devloping better products for our customers.</blockquote>
+      <h6 class="heading font-x1">E. Doe</h6>
+      <em>CTO Startup</em></article>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear">
+      <!-- <div class="one_half"> -->
+      <h6 class="heading">Get in touch <ul class="faico clear">
+        <li><a class="faicon-linkedin" href="https://www.linkedin.com/company/creometrie"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="faicon-facebook" href="https://facebook.com/creometry"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="faicon-twitter" href="https://twitter.com/creometry"><i class="fa fa-twitter"></i></a></li>
+      </ul>
+    </h6>
+      <!-- <nav>
+        <ul class="nospace">
+          <li><a href="index.html"><i class="fa fa-lg fa-home"></i></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>  -->
+  </footer>
+</div>
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <p class="fl_left">Copyright &copy; 2020 - All Rights Reserved - <a href="#">Creometry.com</a></p>
+  </div>
+</div>
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
