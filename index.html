@@ -1,233 +1,598 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>Creometry</title>
-    <link rel="icon" type="image/png" href="images/logo_file.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Garamond">
-  </head>
-  <body id="top"> 
-     <div class="bgded overlay" style="background-image:url('images/backgrounds/01.jpg');">
-      <!---->
-      <div class="wrapper row1">
-        <header id="header" class="hoc clear">
-          <!-- ################################################################################################ -->
-          <div id="logo" class="fl_left">
-            <h1><img id="logo-image" src="images/logo_file.png" style="width: 50px; height: 60px;">
-              <a href="index.html">Creometry</a> 
-            </h1>
-          </div>
-          <nav id="mainav" class="fl_right">
-            <ul class="clear">
-              <li class="active"><a href="https://www.creometry.com">Home</a></li>
-              <li><a href="https://www.creometry.com/pages/about">about</a></li>
-              <li><a href="https://caas.creometry.com/">CaaS</a></li>
-              <li><a class="drop" href="https://www.creometry.com/pages/services.html">Services</a>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Creometry - Cloud made easy!</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="Creometry cloud">
+  <meta content="" name="The cloud, made easy!">
+
+  <!-- Favicons -->
+  <link href="img/c-loud.jpg" rel="icon">
+  <link href="img/favicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+
+    <div id="topbar">
+      <div class="container">
+        <div class="social-links">
+          <a href="https://github.com/creometry" class="github"><i class="fa fa-github"></i></a>
+          <a href="https://creometry.slack.com" class="slack"><i class="fa fa-slack"></i></a>
+          <a href="mailto:contact@creometry.com" class="email"><i class="fa fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/company/creometrie" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.twitter.com/creometry" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.facebook.com/creometry" class="facebook"><i class="fa fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="logo float-left">
+        
+        <h1 <a href="https://www.creometry.com" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> <class="text-light"><a href="https://www.creometry.com" class="scrollto"><span>Creometry</span></a></h1>
+        
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="https://www.creometry.com">Home</a></li>
+          <li><a href="#CaaS">Managed CaaS</a></li>
+          <li class="drop-down"><a href="">Services</a>
+            <ul>
+              <li><a href="#CaaS">Managed Container Platform</a></li>
+              <li class="drop-down"><a href="#">Academy</a>
                 <ul>
-                  <li><a href="https://lab.creometry.com/">Startup Lab</a></li>
-                  <li><a class="drop" href="https://academy.creometry.com/">Academy</a>
-                    <ul>
-                      <li><a href="https://academy.creometry.com/linux">Intro to Linux</a></li>
-                      <li><a href="https://academy.creometry.com/golang">Golang from scratch</a></li>
-                      <li><a href="https://academy.creometry.com/devops">DevOps</a></li>
-                      <li><a href="https://academy.creometry.com/serverless">Serverless</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="https://migrate.creometry.com/">Migrate VMs to containers</a></li>
+                  <li><a href="#">Intro to Linux</a></li>
+                  <li><a href="#">Golang From Scratch</a></li>
+                  <li><a href="#">Containers, kubernetes & DevOps</a></li>
                 </ul>
               </li>
-              <li><a class="drop" href="https://guides.creometry.com/">guides</a>
-                <ul>
-                  <li><a href="https://start.creometry.com/">Quick start</a></li>
-                  <li><a href="https://docs.creometry.com/">Docs</a></li>
-                  <li><a href="https://tutorials.creometry.com/">Tutorials</a></li>
-                </ul>
-              </li>
-              <li><a href="https://cloud.creometry.com">login</a></li>
+              <li><a href="#">Migrate VMs to containers</a></li>
             </ul>
-          </nav>
-         </header>
-      </div>
-      <div id="pageintro" class="hoc clear">
-        <article>
-          <!---->
-          <h3 class="heading">CREOMETRY</h3>
-          <p class="font-x1 uppercase bold">Your journey to the cloud just got
-            easier!</p>
-          <footer><a class="btn" href="https://cloud.creometry.com/">Get started</a></footer>
-          <!----> </article>
-      </div>
-     
-    </div>
-
-    <div class="wrapper bgded overlay" style="background-image:url('images/backgrounds/0.jpg');">
-      <div class="hoc container clear">
-
-        <div class="sectiontitle">
-          <h6 class="heading">Overview</h6>
-        </div>
-        <div class="group">
-          <div class="two_third first">
-            <p><strong>What is Creometry?</strong></p>
-            <p>Creometry is a managed application platform leverageing a modern
-              architecture (known as “serverless”) and open-source technologies
-              (i.e. kubernetes, Linux containers) to deliver a developer
-              friendly experience and reduce the cost of hosting software. The
-              platform abstracts infrastructure completely, allowing developers
-              to focus on business logic and delivering applications faster. In
-              addition to the its container-as-a-service platform, Creometry
-              creates an ecosystem consisting of a training academy for
-              individuals looking to add new technological skills, and a startup
-              lab to accompany the most promising digital business ideas.</p>
-            <p class="btmspace-30">Creometry offers support to organizations
-              planning to migrate to a container-based deployment for increased
-              agility, optimal resource utilization and higher quality of
-              service.</p>
-            <footer><a class="btn" href="#">Learn More »</a></footer>
-          </div>
-          <div class="one_third">
-            <p><strong>See it in action</strong></p>
-            <figure class="videocontainer">
-              <!-- Important: Any type of video called via "iframe" must be in a container using class="videocontainer" -->
-              <iframe src="https://www.youtube.com/embed/QGWq7fcfimg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen="" width="560" height="300" frameborder="0"></iframe>
-              <figcaption>Auto-scaling container demo</figcaption> </figure>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="wrapper row3">
-      <main class="hoc container clear">
-
-        <div class="sectiontitle">
-          <h6 class="heading">Platform Features</h6>
-        </div>
-        <ul class="nospace group services">
-          <li class="one_third first">
-            <article><a href="#">
-                <!-- <i class="fa fa-2x fa-industry"></i> -->
-                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                  xlink="http://www.w3.org/1999/xlink" height="28" width="28" x="0px"
-                  y="0px" viewBox="0 0 480.005 480.005" style="enable-background:new 0 0 480.005 480.005;"
-                  xml:space="preserve"><g>
-                    <g>
-                      <g>
-                        <path d="M240.003,48c4.418,0,8-3.582,8-8V8c0-4.418-3.582-8-8-8s-8,3.582-8,8v32C232.003,44.418,235.584,48,240.003,48z"></path>
-                        <path d="M141.075,36.656l16,27.704c2.184,3.841,7.068,5.184,10.909,3s5.184-7.068,3-10.909c-0.017-0.031-0.035-0.061-0.053-0.092				l-16-27.704c-2.184-3.841-7.068-5.184-10.909-3c-3.841,2.184-5.184,7.068-3,10.909C141.039,36.595,141.057,36.626,141.075,36.656				z"></path>
-                        <path d="M76.567,106.875c0.03,0.018,0.061,0.035,0.092,0.053l27.704,16c3.812,2.234,8.713,0.956,10.947-2.856				c2.234-3.812,0.956-8.713-2.856-10.947c-0.03-0.018-0.061-0.035-0.092-0.053l-27.704-16c-3.812-2.234-8.713-0.956-10.947,2.856				C71.477,99.739,72.755,104.641,76.567,106.875z"></path>
-                        <path d="M96.003,192c0-4.418-3.582-8-8-8h-32c-4.418,0-8,3.582-8,8s3.582,8,8,8h32C92.421,200,96.003,196.418,96.003,192z"></path>
-                        <path d="M104.456,261.018c-0.031,0.018-0.062,0.036-0.093,0.054l-27.704,16c-3.841,2.183-5.185,7.067-3.002,10.908				c2.183,3.841,7.067,5.185,10.908,3.002c0.031-0.018,0.062-0.036,0.093-0.054l27.704-16c3.841-2.183,5.185-7.067,3.002-10.908				C113.181,260.179,108.297,258.835,104.456,261.018z"></path>
-                        <path d="M403.44,277.126c-0.031-0.018-0.062-0.036-0.093-0.054l-27.704-16c-3.811-2.235-8.713-0.957-10.948,2.854				c-2.235,3.811-0.957,8.713,2.854,10.948c0.031,0.018,0.062,0.036,0.093,0.054l27.704,16c3.811,2.235,8.713,0.957,10.948-2.854				C408.529,284.262,407.251,279.361,403.44,277.126z"></path>
-                        <path d="M424.003,184h-32c-4.418,0-8,3.582-8,8s3.582,8,8,8h32c4.418,0,8-3.582,8-8S428.421,184,424.003,184z"></path>
-                        <path d="M371.651,124c1.404,0,2.784-0.37,4-1.072l27.704-16c3.841-2.184,5.184-7.068,3-10.909s-7.068-5.184-10.909-3				c-0.031,0.017-0.061,0.035-0.092,0.053l-27.704,16c-3.826,2.209-5.137,7.102-2.928,10.928				C366.152,122.475,368.793,124,371.651,124z"></path>
-                        <path d="M311.993,67.291c0.003,0.002,0.006,0.004,0.009,0.005c3.827,2.207,8.72,0.894,10.927-2.934				c0-0.001,0.001-0.002,0.001-0.002l16-27.704c2.235-3.811,0.957-8.713-2.854-10.948c-3.811-2.235-8.713-0.957-10.948,2.854				c-0.018,0.031-0.036,0.062-0.054,0.093l-16,27.704C306.862,60.184,308.169,65.078,311.993,67.291z"></path>
-                        <path d="M256.003,320c4.418,0,8-3.582,8-8v-88h16c17.673,0,32-14.327,32-32s-14.327-32-32-32c-17.673,0-32,14.327-32,32v16h-16				v-16c0-17.673-14.327-32-32-32s-32,14.327-32,32s14.327,32,32,32h16v88c0,4.418,3.582,8,8,8s8-3.582,8-8v-88h16v88				C248.003,316.418,251.584,320,256.003,320z M264.003,192c0-8.837,7.163-16,16-16s16,7.163,16,16s-7.163,16-16,16h-16V192z				 M216.003,208h-16c-8.837,0-16-7.163-16-16s7.163-16,16-16s16,7.163,16,16V208z"></path>
-                        <path d="M246.219,64.152c-70.611-3.392-130.603,51.099-133.995,121.71c-1.943,40.432,15.354,79.4,46.643,105.082				c5.639,4.417,8.994,11.135,9.136,18.296V328c0.042,10.134,6.445,19.15,16,22.528V360c0.021,5.923,2.245,11.627,6.24,16				c-8.32,9.044-8.32,22.956,0,32c-8.894,9.75-8.2,24.864,1.55,33.758c4.429,4.04,10.215,6.268,16.21,6.242				c4.306,0.113,7.889-3.287,8.001-7.593c0.044-1.68-0.456-3.33-1.425-4.703c-0.253-0.489-0.553-0.953-0.896-1.384				c-0.658-0.602-1.409-1.094-2.224-1.456c-0.232-0.12-0.464-0.216-0.704-0.312c-0.81-0.295-1.659-0.465-2.52-0.504				c-0.08,0-0.152-0.048-0.232-0.048c-4.418,0-8-3.582-8-8s3.582-8,8-8h32c4.418,0,8-3.582,8-8s-3.582-8-8-8h-32				c-4.418,0-8-3.582-8-8s3.582-8,8-8h32c4.418,0,8-3.582,8-8s-3.582-8-8-8h-32c-4.418,0-8-3.582-8-8v-8h40c4.418,0,8-3.582,8-8				s-3.582-8-8-8h-48c-4.418,0-8-3.582-8-8v-18.76c-0.131-11.962-5.64-23.23-15-30.68c-47.788-39.274-54.689-109.852-15.415-157.64				c22.466-27.336,56.528-42.448,91.871-40.76c59.107,3.516,105.536,51.957,106.544,111.16c0.287,34.052-15.024,66.363-41.56,87.704				c-9.29,7.652-14.602,19.109-14.44,31.144V328c0,4.418-3.582,8-8,8h-24c-4.418,0-8,3.582-8,8s3.582,8,8,8h16v8				c0,4.418-3.582,8-8,8h-8c-4.418,0-8,3.582-8,8s3.582,8,8,8h8c4.418,0,8,3.582,8,8s-3.582,8-8,8h-8c-4.418,0-8,3.582-8,8				s3.582,8,8,8h8c4.418,0,8,3.582,8,8s-3.582,8-8,8h-40c-4.418,0-8,3.582-8,8s3.582,8,8,8h30.632				c-4.417,12.497-18.129,19.047-30.626,14.63c-3.826-1.352-7.246-3.653-9.942-6.686c-2.938-3.3-7.996-3.594-11.296-0.656				c-3.3,2.938-3.594,7.996-0.656,11.296c14.631,16.487,39.857,17.992,56.344,3.362c6.81-6.043,11.349-14.232,12.864-23.21				c12.529-3.916,19.511-17.247,15.596-29.776c-1.04-3.329-2.801-6.388-5.156-8.96c8.32-9.044,8.32-22.956,0-32				c3.995-4.373,6.219-10.077,6.24-16v-9.472c9.555-3.378,15.958-12.394,16-22.528v-17.832c-0.107-7.187,3.007-14.046,8.488-18.696				c30.344-24.395,47.85-61.339,47.512-100.272C366.847,123.532,313.777,68.169,246.219,64.152z"></path>
-                      </g> </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
-              </a>
-              <h6 class="heading font-x1">Create more! Do less!</h6>
-              <p>Save the time spent on provisioning and managing
-                infrastructure. Focus on writing code and shipping new features
-                instead</p>
-            </article>
           </li>
-          <li class="one_third">
-            <article><a href="#"><i class="fa fa-2x fa-clock-o"></i></a>
-              <h6 class="heading font-x1">High availability</h6>
-              <p>Applications scale automatically upon traffic increase/decrease
-                so you can sleep at night</p>
-            </article>
+          <li class="drop-down"><a href="pages/docs">Docs</a>
+            <ul>
+                  <li><a href="#">Quick Start</a></li>
+                  <li><a href="#">Docs</a></li>
+                  <li><a href="#">Tutorials</a></li>
+            </ul>
           </li>
-          <li class="one_third">
-            <article><a href="#"><i class="fa fa-2x fa-money"></i></a>
-              <h6 class="heading font-x1">Reduced cost</h6>
-              <p>Save up to 70% on the cost of cloud services with auto-scaling
-                feature. When there is no incoming user requests, applications
-                scale down to ZERO, so you never pay for idle!</p>
-            </article>
-          </li>
-          <li class="one_third first">
-            <article><a href="#"><i class="fa fa-2x fa-shield"></i></a>
-              <h6 class="heading font-x1">Security out-of-the-box</h6>
-              <p>Get TLS encrypted network traffic and secure data storage,
-                without additional efforts</p>
-            </article>
-          </li>
-          <li class="one_third">
-            <article><a href="#">
-                <svg enable-background="new 0 0 24 24" height="28" viewBox="0 0 24 24"
-                  width="28" xmlns="http://www.w3.org/2000/svg"><path d="m6.5 20c-.124 0-.245-.047-.338-.131-.103-.095-.162-.228-.162-.369v-14c0-.14.059-.274.162-.369.104-.095.24-.143.382-.129l17 1.5c.258.023.456.239.456.498v11c0 .259-.198.476-.456.498l-17 1.5c-.015.001-.029.002-.044.002zm.5-13.954v12.908l16-1.412v-10.084zm16.5 11.954h.01z"></path><path
-                    d="m6.5 20c-.04 0-.08-.005-.121-.015l-6-1.5c-.223-.055-.379-.256-.379-.485v-11c0-.229.156-.429.379-.485l6-1.5c.264-.069.539.096.606.364.067.267-.095.539-.364.606l-5.621 1.406v10.219l5.621 1.405c.269.067.431.339.364.606-.056.228-.26.379-.485.379z"></path><path
-                    d="m3.5 19.25c-.276 0-.5-.224-.5-.5v-12.5c0-.276.224-.5.5-.5s.5.224.5.5v12.5c0 .276-.224.5-.5.5z"></path><path
-                    d="m9.5 18c-.276 0-.5-.224-.5-.5v-10c0-.276.224-.5.5-.5s.5.224.5.5v10c0 .276-.224.5-.5.5z"></path><path
-                    d="m13.5 17.5c-.276 0-.5-.224-.5-.5v-9c0-.276.224-.5.5-.5s.5.224.5.5v9c0 .276-.224.5-.5.5z"></path><path
-                    d="m17.5 17c-.276 0-.5-.224-.5-.5v-8c0-.276.224-.5.5-.5s.5.224.5.5v8c0 .276-.224.5-.5.5z"></path><path
-                    d="m21.5 16.5c-.276 0-.5-.224-.5-.5v-7c0-.276.224-.5.5-.5s.5.224.5.5v7c0 .276-.224.5-.5.5z"></path></svg>
-              </a>
-              <h6 class="heading font-x1">Modern &amp; Agile</h6>
-              <p>Extend existing applications or build new functions and/or
-                micro-services in any popular programming languages</p>
-            </article>
-          </li>
-          <li class="one_third">
-            <article><a href="#">
-                <!-- <i class="fa fa-2x fa-docker"></i></a> -->
-                <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"
-                  height="28" width="28" viewBox="0 0 511.997 511.997" style="enable-background:new  0 0 24 24;"
-                  xml:space="preserve"><g>
-                    <g>
-                      <path d="M506.76,242.828l-118.4-125.44c-7.277-7.718-19.424-8.07-27.142-0.787c-7.706,7.277-8.064,19.43-0.781,27.142			l105.965,112.256L360.437,368.268c-7.283,7.712-6.925,19.859,0.781,27.142c3.712,3.501,8.454,5.235,13.178,5.235			c5.101,0,10.195-2.022,13.965-6.01l118.4-125.446C513.742,261.785,513.742,250.226,506.76,242.828z"></path>
-                    </g></g><g>
-                    <g>
-                      <path d="M151.566,368.262L45.608,255.999l105.958-112.262c7.277-7.712,6.925-19.866-0.787-27.142			c-7.706-7.277-19.866-6.925-27.142,0.787l-118.4,125.44c-6.982,7.398-6.982,18.963,0,26.362L123.643,394.63			c3.776,4,8.864,6.016,13.965,6.016c4.723,0,9.466-1.741,13.171-5.242C158.498,388.127,158.843,375.974,151.566,368.262z"></path>
-                    </g></g><g>
-                    <g>
-                      <path d="M287.061,52.697c-10.477-1.587-20.282,5.606-21.882,16.083l-56.32,368.64c-1.6,10.483,5.6,20.282,16.083,21.882			c0.986,0.147,1.958,0.218,2.925,0.218c9.325,0,17.504-6.803,18.957-16.301l56.32-368.64			C304.744,64.095,297.544,54.297,287.061,52.697z"></path>
-                    </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
-              </a>
-              <h6 class="heading font-x1">100% Cloud Native</h6>
-              <p>Built on top of Kubernetes, Docker, and other open-source
-                technologies to deliver a state of the art cloud native stack </p>
-            </article>
-          </li>
+          <li><a href="https://cloud.creometry.com">Login</a></li>
         </ul>
-        <!-- ################################################################################################ -->
+      </nav><!-- .main-nav -->
       
-      </div>
-    </div> 
-     
-            <!-- ############################## footer ##################################### -->
-    <div class="wrapper row4">
-      <footer id="footer" class="hoc clear">
-        <!-- <div class="one_half"> -->
-        <h6 class="heading">Get in touch
-          <ul class="faico clear">
-            <li><a class="faicon-linkedin" href="https://www.linkedin.com/company/creometrie"><i
-                  class="fa fa-linkedin"></i></a><br>
-            </li>
-            <li><a class="faicon-facebook" href="https://facebook.com/creometry"><i
-                  class="fa fa-facebook"></i></a><br>
-            </li>
-            <li><a class="faicon-twitter" href="https://twitter.com/creometry"><i
-                  class="fa fa-twitter"></i></a><br>
-            </li>
-          </ul>
-        </h6>
-        <ul class="nospace">          <li><a href="https://www.creometry.com/"><i class="fa fa-lg fa-home"></i></a></li>          <li><a href="https://www.creometry.com/pages/about.html">About</a></li>          <li><a href="https://www.creometry.com/pages/contact.html">Contact</a></li>        </ul>      </nav>  
-      </footer>
     </div>
-    <div class="wrapper row5">
-      <div id="copyright" class="hoc clear">
-        <p class="fl_left"> © 2020 - <a href="https://www.creometry.com">Creometry.com</a></p>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center">
+        <div class="col-md-6 intro-info order-md-first order-last">
+          <h2>The 'cloud', made<span> easy!</span></h2>
+          <h3>Deploy auto-scaling containers with a simple git push!</h3>
+          <div>
+            <a href="https://cloud.creometry.com/" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+  
+        <div class="col-md-6 intro-img order-md-last order-first">
+          <img src="img/workflows.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="CaaS">
+
+      <div class="contaicreoner">
+        <div class="row">
+
+          <div class="col-lg-5 col-md-6">
+            <div class="about-img">
+               <img src="img/stack.png" alt=""> 
+            </div>
+          </div>
+
+          <div class="col-lg-7 col-md-6">
+            <div class="about-content">
+            <br>
+              <h2> What is Creometry?</h2>
+              <h3> A state of the art managed platform for modern applications</h3> 
+              <p> Creometry allows developers to run auto-scaling containers on kubernetes, in a 'serverless' fashion; without having to manage servers nor kubernetes itself. It is built on the best of open-source software to deliver a developer-friendly experience through automation and essential security features provided out-of-the-box.</p>
+              <p>When using Creometry, you can: </p>
+              
+                <li><i class="ion-android-checkmark-circle"></i> Build new micro-service applications or extend existing systems with new functions</li>
+                <li><i class="ion-android-checkmark-circle"></i> Focus on delivering applications faster instead of spending time provisionning servers</li>
+                <li><i class="ion-android-checkmark-circle"></i> Leverage automated workflows and enable agile collaboration across teams</li>
+                   
+                            
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- #caas -->
+
+
+    <!--==========================
+      caas continued Section
+    ============================-->
+    <!--<section id="caas2" class="section-bg">-->
+      <div class="container">
+
+        <header class="section-header">
+          <br>
+          <h3>Features</h3>
+          <p> Because you are not a one man army </p>
+          <br>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #FFFFFF00;"><i class="fa fa-2x fa-clock-o" style="color: #097bc1;"></i></div>
+              <h4 class="title"><a href="">Lower overhead</a></h4>
+              <p class="description">Full automation enables you to focus on writing code and shipping new features instead of managing infrastructure</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.6s">
+            <div class="box">
+              <div class="icon" style="background: #FFFFFF00;"><i class="fa fa-2x fa-shield" aria-hidden="true" style="color:#097bc1;"></i></div>
+              <h4 class="title"><a href="">Secure out-of-the-box</a></h4>
+              <p class="description">Encrypted network and storage, without any additional effort</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.4s" data-wow-duration="1.8s">
+            <div class="box">
+              <div class="icon" style="background: #FFFFFF00;"><i class="fa fa-2x fa-bolt" aria-hidden="true" style="color: #097bc1;"></i></div>
+              <h4 class="title"><a href="">High availability</a></h4>
+              <p class="description">Your services scale automatically upon traffic increase/decrease so you can sleep at night</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.6s" data-wow-duration="2.0s">
+            <div class="box">
+              <div class="icon" style="background: #FFFFFF00;"><i class="fa fa-2x fa-money" aria-hidden="true" style="color: #097bc1;"></i></div>
+              <h4 class="title"><a href="">Reduced cost</a></h4>
+              <p class="description"> When there is no incoming user requests, applications scale down to ZERO, so you never pay for idle!</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.8s" data-wow-duration="2.2s">
+            <div class="box">
+              <div class="icon" style="background: #FFFFFF00;"><i class="fa fa-2x fa-superpowers" aria-hidden="true" style="color: #097bc1;"></i></div>
+              <h4 class="title"><a href="">MODERN & AGILE</a></h4>
+              <p class="description">Build independent services to integrate with existing or new systems in any of the popular programming languages</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="1.0s" data-wow-duration="2.4s">
+            <div class="box">
+              <div class="icon" style="background: #FFFFFF00;"><i class="fa fa-2x fa-cloud" aria-hidden="true" style="color: #097bc1;"></i></div>
+              <h4 class="title"><a href="">100% Open-Source</a></h4>
+              <p class="description">Harness the power of a cloud native stack built on Kubernetes and other open-source software </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    <!--</section> #caas -->
+
+    <!--==========================
+      Why Us Section
+    ============================-->
+    <!--
+    <section id="why-us" class="wow fadeIn">
+      <div class="container-fluid">
+        
+        <header class="section-header">
+          <h3>Why choose us?</h3>
+          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="why-us-img">
+              <img src="img/why-us.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="why-us-content">
+              <p>Molestiae omnis numquam corrupti omnis itaque. Voluptatum quidem impedit. Odio dolorum exercitationem est error omnis repudiandae ad dolorum sit.</p>
+              <p>
+                Explicabo repellendus quia labore. Non optio quo ea ut ratione et quaerat. Porro facilis deleniti porro consequatur
+                et temporibus. Labore est odio.
+
+                Odio omnis saepe qui. Veniam eaque ipsum. Ea quia voluptatum quis explicabo sed nihil repellat..
+              </p>
+
+              <div class="features wow bounceInUp clearfix">
+                <i class="fa fa-diamond" style="color: #f058dc;"></i>
+                <h4>Accelerate Applications Deployment</h4>
+                <p>Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.</p>
+              </div>
+
+              <div class="features wow bounceInUp clearfix">
+                <i class="fa fa-object-group" style="color: #ffb774;"></i>
+                <h4>Lower Servers cost</h4>
+                <p>Molestias eius rerum iusto voluptas et ab cupiditate aut enim. Assumenda animi occaecati. Quo dolore fuga quasi autem aliquid ipsum odit. Perferendis doloremque iure nulla aut.</p>
+              </div>
+              
+              <div class="features wow bounceInUp clearfix">
+                <i class="fa fa-language" style="color: #589af1;"></i>
+                <h4>Scale infrastracture easily</h4>
+                <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. Totam dolores ut enim ullam voluptas distinctio aut.</p>
+              </div>
+              
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container">
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">274</span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">421</span>
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1,364</span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">18</span>
+            <p>Hard Workers</p>
+          </div>
+  
+        </div>
+
+      </div>
+    </section>
+-->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services">
+      <div class="container">
+        <header class="section-header">
+          <br>
+          <h3>Services</h3>
+          <br>
+          <br>
+        </header>
+
+        <div class="row feature-item">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="img/academy.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+          </br>
+          </br>
+          </br>
+          </br>
+            <h4>ACADEMY</h4>
+            <p>
+              Level up your skills and become a certified 'creometrist', with trainings that will put you ahead of the curve: Linux, Go programming language, Kubernetes for micro-service applications.
+             </p>
+          </div>
+        </div>
+
+        <div class="row feature-item mt-5 pt-5">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="img/lab.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+          </br>
+          </br>
+          </br>
+          </br>
+            <h4>Dev LAB</h4>
+            <p>
+              Building a cloud application? Are you a startup with a unique internet business idea?
+              Get the help you need to build it and host it.
+            </p>
+          </div>
+          
+        </div>
+        <div class="row feature-item">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="img/migrate.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+          </br>
+          </br>
+          </br>
+          </br>
+            <h4>MIGRATE</h4>
+            <p>
+              Whether it is on the cloud or on premise, we assist you through the process of modernizing your software and migrate from VMs to containers for higher cost-efficiency and improved quality of service
+             </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action" class="wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Contact us</h3>
+            <p class="cta-text"> We'd love to talk about how we can help you</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Contact Sales</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
+    <!-- #about -->
+
+    
+    <!--==========================
+      Clients Section
+    ============================-->
+    
+    <!--==========================
+      Frequently Asked Questions Section
+    ============================-->
+    <section id="faq">
+      <div class="container">
+        <header class="section-header">
+          <h3>Frequently Asked Questions</h3>
+          <p>if you need more informations , please check our documentation page or send a message to support through <a href="#">contact page</a> </p>
+        </header>
+
+        <ul id="faq-list" class="wow fadeInUp">
+          <li>
+            <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="ion-android-remove"></i></a>
+            <div id="faq1" class="collapse" data-parent="#faq-list">
+              <p>
+                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="ion-android-remove"></i></a>
+            <div id="faq2" class="collapse" data-parent="#faq-list">
+              <p>
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="ion-android-remove"></i></a>
+            <div id="faq3" class="collapse" data-parent="#faq-list">
+              <p>
+                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="ion-android-remove"></i></a>
+            <div id="faq4" class="collapse" data-parent="#faq-list">
+              <p>
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="ion-android-remove"></i></a>
+            <div id="faq5" class="collapse" data-parent="#faq-list">
+              <p>
+                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="ion-android-remove"></i></a>
+            <div id="faq6" class="collapse" data-parent="#faq-list">
+              <p>
+                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- #faq -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="row">
+
+          <!-- <div class="col-lg-6"> -->
+
+            <!-- <div class="row"> -->
+
+                <!-- <div class="col-sm-6"> -->
+
+                  <!-- <div class="footer-info">
+                    <h3>Rapid</h3>
+                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                  </div> -->
+
+                  <!-- <div class="footer-newsletter">
+                    <h4>Our Newsletter</h4>
+                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem.</p>
+                    <form action="" method="post">
+                      <input type="email" name="email"><input type="submit"  value="Subscribe">
+                    </form>
+                  </div> -->
+
+                <!-- </div> -->
+
+                <!-- <div class="col-sm-12"> -->
+                <div class="col-sm-4">
+                  <div class="footer-links">
+                    <h4>Contact Us</h4>
+                    
+                      <div class="social-links">
+                        <a href="https://github.com/creometry" class="github"><i class="fa fa-github"></i></a>
+                        <a href="https://creometry.slack.com" class="slack"><i class="fa fa-slack"></i></a>
+                        <a href="mailto:contact@creometry.com" class="email"><i class="fa fa-envelope"></i></a>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-4">
+                  <div class="footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                      <li><a href="https://www.creometry.com">Home</a></li>
+                      <li><a href="https://www.creometry.com/about">About us</a></li>
+                      <li><a href="#">Terms of service</a></li>
+                      <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                  </div>
+                </div>
+                
+
+                <div class="col-sm-4">
+                  <h4>Follow Us</h4>
+                  <div class="social-links">
+                    <a href="https://www.linkedin.com/company/creometrie" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.twitter.com/creometry" class="twitter"><i class="fa fa-twitter"></i></a>
+                     <a href="https://www.facebook.com/creometry" class="facebook"><i class="fa fa-facebook"></i></a>
+                  </div>
+                </div>
+                </div>
+
+            <!-- </div> -->
+
+          <!-- </div> -->
+<!-- 
+          <div class="col-lg-6">
+
+            <div class="form">
+              
+              <h4>Send us a message</h4>
+              <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi harum aut temporibus.</p>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+
+          </div> -->
+
+          
+
+        </div>
+
       </div>
     </div>
-    <!-- JAVASCRIPTS -->
-    <script src="layout/scripts/jquery.min.js"></script>
-    <script src="layout/scripts/jquery.backtotop.js"></script>
-    <script src="layout/scripts/jquery.mobilemenu.js"></script>
-  </body>
+
+
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
 </html>
