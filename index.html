@@ -50,12 +50,11 @@
     </div>
 
     <div class="container">
-
       <div class="logo float-left">
-        
-        <h1 <a href="https://www.creometry.com/" class="scrollto"><img src="img/logo_blue.png" alt="" class="img-fluid"></a> <class="text-light"><a href="https://www.creometry.com" class="scrollto"><span>Creometry</span></a></h1>
-        
-      </div>
+          <a href="https://www.creometry.com/" class="scrollto">
+            <img src="img/logo_creometry_blue.png" >
+          </a> 
+    </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
@@ -122,7 +121,7 @@
 
           <div class="col-lg-5 col-md-6">
             <div class="about-img">
-               <img src="img/stack.png" alt=""> 
+               <img src="img/stack.png" width="100%" alt=""> 
             </div>
           </div>
 
@@ -210,12 +209,14 @@
           </div>
 
         </div>
+        
         <div class="row justify-content-center align-self-center">
               
-          <a href="https://docs.ceometry.com/quickstart" class="btn-get-started scrollto">Quick Start</a>
+          <a href="https://docs.ceometry.com/quickstart" class="button-blue scrollto">Quick Start</a>
               
         </div>
       </div>
+      
     </section>
     <!--</section> #caas -->
 
@@ -235,21 +236,20 @@
             <img src="img/academy.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-            
-            <h4>ACADEMY</h4>
+          
+            <h4 class="top-space">ACADEMY</h4>
             <p>
               Level up your skills and become a certified 'creometrist', with trainings that will put you ahead of the curve: Linux, Go programming language, Kubernetes for micro-service applications.
             </p>
           </div>
         </div>
-
         <div class="row feature-item mt-5 pt-5">
           <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
             <img src="img/lab.png" class="img-fluid" alt="">
           </div>
-
           <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-            <h4>Dev LAB</h4>
+            
+            <h4 class="top-space">Dev LAB</h4>
             <p>
               Building a cloud application? Are you a startup with a unique internet business idea?
               Get the help you need to build it and host it.
@@ -263,7 +263,7 @@
           </div>
           <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
           
-            <h4>MIGRATE</h4>
+            <h4 class="top-space" >MIGRATE</h4>
             <p>
               Whether it is on the cloud or on premise, we assist you through the process of modernizing your software and migrate from VMs to containers for higher cost-efficiency and improved quality of service
              </p>
@@ -290,7 +290,7 @@
 
         <ul id="faq-list" class="wow fadeInUp">
           <li>
-            <a data-toggle="collapse" class="collapsed" href="#faq1">What is a managed CaaS platform? <i class="ion-android-remove"></i></a>
+            <a data-toggle="collapse" class="collapsed faq-title" href="#faq1">What is a managed CaaS platform? <i class="ion-android-remove"></i></a>
             <div id="faq1" class="collapse" data-parent="#faq-list">
               <p>
                 A cloud service offering that enables individual developers, teams and organizations to deploy application containers and manage them remotely.
@@ -299,7 +299,7 @@
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed">What is a container? <i class="ion-android-remove"></i></a>
+            <a data-toggle="collapse" href="#faq2" class="collapsed faq-title">What is a container? <i class="ion-android-remove"></i></a>
             <div id="faq2" class="collapse" data-parent="#faq-list">
               <p>
                 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
@@ -308,16 +308,18 @@
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq3" class="collapsed">What is serverless? <i class="ion-android-remove"></i></a>
+            <a data-toggle="collapse" href="#faq3" class="collapsed faq-title">What is serverless? <i class="ion-android-remove"></i></a>
             <div id="faq3" class="collapse" data-parent="#faq-list">
               <p>
-                It means "no server operations". The classic definition of 'server-less' refers to an arhitecture pattern known as <a href="https://github.com/cncf/wg-serverless/tree/master/whitepapers/serverless-overview">function-as-a-service</a> (FaaS).
+                It means "no server operations". The classic definition of 'server-less' refers to an arhitecture pattern known as 
+                <a href="https://github.com/cncf/wg-serverless/tree/master/whitepapers/serverless-overview">
+                  function-as-a-service</a> (FaaS).
               </p>
             </div>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq4" class="collapsed">What is serverless containers? <i class="ion-android-remove"></i></a>
+            <a data-toggle="collapse" href="#faq4" class="collapsed faq-title">What is serverless containers? <i class="ion-android-remove"></i></a>
             <div id="faq4" class="collapse" data-parent="#faq-list">
               <p>
                 Containers can package any application. When cobined with serverless concepts, a function may be anything; a micro-service, a web-site, a data-base or even a monolithic application.
@@ -326,16 +328,17 @@
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq5" class="collapsed">How is Creometry secure? <i class="ion-android-remove"></i></a>
+            <a data-toggle="collapse" href="#faq5" class="collapsed faq-title">How is Creometry secure? <i class="ion-android-remove"></i></a>
             <div id="faq5" class="collapse" data-parent="#faq-list">
               <p>
-                Serverless automates infrastructure operations and removes human intervention by default, thus lowering the risk of error occurence. Additionally, all services get automatic TLS to encrypt traffic and default isolation to prevent them from talkng to other services when they are not supposed to. Learn more about security in creometry.   
+                Serverless automates infrastructure operations and removes human intervention by default, thus lowering the risk of error occurence. Additionally, all services get automatic TLS to encrypt traffic and default isolation to prevent them from talkng to other services when they are not supposed to. 
+                <a href="#">Learn more about security in creometry.</a>   
               </p>
             </div>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq6" class="collapsed">How can I run serverless containers on my own servers? <i class="ion-android-remove"></i></a>
+            <a data-toggle="collapse" href="#faq6" class="collapsed faq-title">How can I run serverless containers on my own servers? <i class="ion-android-remove"></i></a>
             <div id="faq6" class="collapse" data-parent="#faq-list">
               <p>
                 Whether your servers are on the cloud or on-premise, you can use creometry's stack to run containers on kubernetes. For assistance planning and executing your migration strategy, contact our sales team.
@@ -433,13 +436,13 @@
         </div>
       </div>
     </div>
-    <div class="footer-bottom">
+    <div class="footer-bottom top-footer">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
             <p>Copyright © 2020 <span class="text-nowrap">Creometry.</span></p>
           </div>
-          <div class="col">
+          <div class="col-md-9 float-right">
             <nav class="nav">
               <a href="https://www.creometry.com/about/privacy-policy" class="nav-link">Privacy statement</a>
               <a href="https://www.creometry.com/legal/terms.terms" class="nav-link">Terms of use</a>
