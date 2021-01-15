@@ -37,12 +37,23 @@ p {
 h1,
 h2,
 h3,
-h4,
 h5,
-h6 {
+h6,h4 {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.top-space {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 100px 0 20px 0;
+    padding: 0;
+}
+.top-footer {
+    
+    margin: 30px 0 20px 0;
     padding: 0;
 }
 
@@ -201,8 +212,9 @@ h6 {
 
 #header .logo img {
     padding: 0;
-    margin: 7px 0;
-    max-height: 26px;
+    margin:  0;
+    max-width:202px;
+    max-height: 60px;
 }
 
 .main-pages {
@@ -253,7 +265,26 @@ h6 {
 #intro .intro-info .btn-services:hover {
     background: #0a98c0;
 }
+/* button blue */
+.button-blue {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #1bb1dc;
+    color: #fff;
+}
 
+.button-blue:hover {
+    background: #0a98c0;
+    color:#fff;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -1198,7 +1229,7 @@ h6 {
     border-bottom: 1px solid #ebebeb;
 }
 
-#faq #faq-list a {
+.faq-title {
     padding: 22px 0;
     display: block;
     position: relative;
@@ -1208,6 +1239,8 @@ h6 {
     font-weight: 400;
     padding-right: 20px;
 }
+
+
 
 #faq #faq-list i {
     font-size: 24px;
