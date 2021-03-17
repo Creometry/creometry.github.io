@@ -363,7 +363,7 @@
           <p class="cta-text"> We'd love to talk about how we can help you</p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
-          <a class="cta-btn align-middle" href="https://www.creometry.com/contact">Contact Sales</a>
+          <a class="cta-btn align-middle" href="https://www.creometry.com/pages/contactus.html">Contact us</a>
         </div>
       </div>
     </div>
@@ -427,7 +427,7 @@
                 <div class="footer-newsletter">
                   <h4> Newsletter</h4>
                   <p> Get pro-tips, news and the latest updates about our products and services delivered to your email monthly.</p>
-                  <form action="" method="post">
+                  <form action="" method="post" id="subscribebutton">
                     <input type="email" name="email"><input type="submit"  value="Subscribe">
                   </form>
                 </div>
@@ -474,6 +474,26 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+  <script>
+    $("#subscribebutton").submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            url: "http://localhost:5000/websiteapi/",
+            type: "POST",
+            data: $('form#subscribebutton').serialize(),
+            success: function(data){
+                alert(data);
+            },
+            statusCode: {
+              409: function() {
+              alert('email already exists !');
+              }
+            }
+        });
+    });
+
+</script>
 
 </body>
 </html>
